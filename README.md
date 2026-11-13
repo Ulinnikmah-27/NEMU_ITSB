@@ -7,4 +7,4 @@ NEMU (Navigasi Eksplorasi Minat UKM) adalah aplikasi web berbasis Python dan Str
 [Lihat PPT Presentasi NEMU](https://drive.google.com/drive/u/4/folders/1kuE1ts3v3rZknNTGJvtGMd3ev-dOPpWD)
 
 ### Diagram Swimlane
-[Lihat Diagram Swimlane NEMU](https://drive.google.com/drive/u/4/folders/1kuE1ts3v3rZknNTGJvtGMd3ev-dOPpWD))
+[Lihat Diagram Swimlane NEMU](https://drive.google.com/drive/u/4/folders/1kuE1ts3v3rZknNTGJvtGMd3ev-dOPpWD)
