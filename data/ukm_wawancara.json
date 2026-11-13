@@ -1,0 +1,623 @@
+[
+  {
+    "nama": "ITSB FUTSAL CLUB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "UKM Futsal menjadi wadah bagi mahasiswa untuk menyalurkan, mengembangkan, dan meningkatkan bakat bermain futsal agar dapat berkembang menjadi prestasi. Kegiatan rutin dilaksanakan dua kali seminggu, yaitu setiap Rabu dan Jumat pukul 16.00–18.00. Selain latihan rutin, terdapat latihan tambahan dan pertandingan persahabatan (sparring), terutama menjelang turnamen. Intensitas latihan dapat meningkat ketika mempersiapkan kompetisi.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan terhadap olahraga futsal dan bersedia mengikuti kegiatan latihan. Pengurus tidak menetapkan kriteria minat yang terlalu khusus.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan bermain futsal dapat menjadi nilai tambah, tetapi bukan persyaratan utama. Pengurus lebih mengutamakan karakter yang baik, kemauan untuk berlatih, kedisiplinan, dan kesungguhan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula tetap dapat bergabung, termasuk mahasiswa yang belum pernah bermain futsal sebelumnya. Pengurus terbuka untuk menerima dan membimbing anggota yang memiliki kemauan serta karakter yang baik.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok karena latihan dan permainan futsal membutuhkan kerja sama tim.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di dalam dan di luar kampus. Latihan rutin menggunakan lapangan kampus, sedangkan sparring atau latihan tambahan terkadang dilakukan dengan menyewa lapangan di luar kampus.",
+      "7. Komitmen waktu": "Cenderung tinggi. Anggota diharapkan mengikuti latihan dengan sungguh-sungguh. Izin dapat diberikan apabila berkaitan dengan perkuliahan, kesehatan, atau keadaan mendesak. Ketidakhadiran tanpa alasan yang jelas dapat memperoleh konsekuensi dari pengurus.",
+      "8. Persyaratan atau kriteria penerimaan": "Belum dijelaskan secara lengkap dalam wawancara. Pengurus menekankan karakter yang baik, kedisiplinan, kemauan berlatih, dan kesungguhan sebagai hal penting bagi calon anggota.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki karakter yang baik. 2) Disiplin dan bertanggung jawab terhadap jadwal latihan. 3) Memiliki kemauan serta kesungguhan untuk berlatih."
+    },
+    "slug": "futsal",
+    "kategori": "Olahraga",
+    "minat": [
+      "olahraga"
+    ],
+    "bakat": [
+      "fisik",
+      "kerja sama"
+    ],
+    "kemampuan": [
+      "futsal"
+    ],
+    "pola": "kelompok",
+    "lokasi": null,
+    "komitmen": "tinggi",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Belum dijelaskan secara lengkap dalam wawancara. Pengurus menekankan karakter yang baik, kedisiplinan, kemauan berlatih, dan kesungguhan sebagai hal penting bagi calon anggota.",
+    "deskripsi": "UKM Futsal menjadi wadah bagi mahasiswa untuk menyalurkan, mengembangkan, dan meningkatkan bakat bermain futsal agar dapat berkembang menjadi prestasi. Kegiatan rutin dilaksanakan dua kali seminggu, yaitu setiap Rabu dan Jumat pukul 16.00–18.00. Selain latihan rutin, terdapat latihan tambahan dan pertandingan persahabatan (sparring), terutama menjelang turnamen. Intensitas latihan dapat meningkat ketika mempersiapkan kompetisi.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "TARI ITSB CLUB (NATARIKA)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "Natarika dibentuk sebagai wadah bagi mahasiswa yang memiliki minat dan bakat di bidang seni tari. Kegiatannya berfokus pada latihan tari, pengembangan kemampuan anggota, serta persiapan untuk memenuhi undangan penampilan. Jenis kegiatan juga mulai berkembang ke arah modern dance.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan terhadap seni tari, baik tari tradisional maupun tari modern.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan menari bukan persyaratan wajib. Minat dan konsistensi dalam mengikuti latihan lebih diutamakan karena kemampuan dapat dikembangkan melalui proses latihan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung. Pengurus melakukan penilaian atau grading untuk melihat kemampuan dan pengalaman anggota, kemudian mengelompokkan tingkat kemampuan, seperti grade A dan grade B.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok.",
+      "6. Lokasi kegiatan": "Kegiatan lebih sering dilakukan di dalam ruangan (indoor).",
+      "7. Komitmen waktu": "Tinggi. Anggota diharapkan memiliki komitmen dan konsistensi untuk mengikuti latihan.",
+      "8. Persyaratan atau kriteria penerimaan": "Pengurus tidak menyebutkan persyaratan administratif khusus. Dalam kegiatan awal, anggota mengikuti proses pengenalan dan grading untuk mengetahui tingkat kemampuan serta pengalaman menari.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki komitmen. 2) Memiliki minat terhadap seni tari. 3) Memiliki ketertarikan untuk mengikuti dan mengembangkan kemampuan menari."
+    },
+    "slug": "natarika",
+    "kategori": "Seni dan Budaya",
+    "minat": [
+      "seni",
+      "budaya"
+    ],
+    "bakat": [
+      "kreatif"
+    ],
+    "kemampuan": [
+      "menari"
+    ],
+    "pola": "kelompok",
+    "lokasi": "indoor",
+    "komitmen": "tinggi",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Pengurus tidak menyebutkan persyaratan administratif khusus. Dalam kegiatan awal, anggota mengikuti proses pengenalan dan grading untuk mengetahui tingkat kemampuan serta pengalaman menari.",
+    "deskripsi": "Natarika dibentuk sebagai wadah bagi mahasiswa yang memiliki minat dan bakat di bidang seni tari. Kegiatannya berfokus pada latihan tari, pengembangan kemampuan anggota, serta persiapan untuk memenuhi undangan penampilan. Jenis kegiatan juga mulai berkembang ke arah modern dance.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ITSB VOLLEY BALL CLUB (IVBC)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "IVBC menjadi wadah bagi mahasiswa untuk mengisi waktu luang, bermain bola voli, dan mengembangkan kemampuan. Kegiatan tersedia untuk anggota yang ingin bermain santai maupun yang ingin berlatih lebih serius. Terdapat latihan di kampus dan kegiatan latihan fisik atau bermain di luar kampus.",
+      "2. Minat mahasiswa yang cocok": "Terbuka bagi mahasiswa yang memiliki ketertarikan terhadap olahraga bola voli, baik untuk rekreasi maupun pengembangan kemampuan secara lebih serius.",
+      "3. Bakat atau kemampuan pendukung": "Tidak ada kemampuan khusus yang diwajibkan. Anggota dengan tingkat kemampuan berbeda, mulai dari pemula hingga mahir, diterima dan dapat memperoleh bimbingan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung, termasuk yang belum memahami teknik dasar seperti passing. Pengurus bersedia mengajarkan teknik dari awal.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok karena permainan bola voli membutuhkan kerja sama tim.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di dalam dan di luar kampus. Latihan kampus menggunakan fasilitas lapangan kampus, sedangkan kegiatan di luar kampus pernah dilakukan di lapangan Kantor Kecamatan Cikarang Pusat.",
+      "7. Komitmen waktu": "Bervariasi, mulai dari rendah hingga tinggi, bergantung pada tujuan dan keseriusan anggota. Terdapat anggota yang mengikuti kegiatan untuk mengisi waktu luang dan anggota yang rutin hadir untuk berlatih lebih serius. Jadwal latihan kampus disebutkan berlangsung pada Selasa dan Kamis.",
+      "8. Persyaratan atau kriteria penerimaan": "Tidak terdapat persyaratan khusus berdasarkan jenis kelamin, tinggi badan, atau tingkat kemampuan. Setiap anggota diberikan tanggung jawab masing-masing. Persyaratan administratif penerimaan anggota tidak dijelaskan lebih lanjut.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Percaya diri. 2) Tidak takut terhadap bola dan berani mencoba. 3) Memiliki niat untuk belajar dan berlatih."
+    },
+    "slug": "volley",
+    "kategori": "Olahraga",
+    "minat": [
+      "olahraga"
+    ],
+    "bakat": [
+      "fisik",
+      "kerja sama"
+    ],
+    "kemampuan": [
+      "voli"
+    ],
+    "pola": "kelompok",
+    "lokasi": null,
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Tidak terdapat persyaratan khusus berdasarkan jenis kelamin, tinggi badan, atau tingkat kemampuan. Setiap anggota diberikan tanggung jawab masing-masing. Persyaratan administratif penerimaan anggota tidak dijelaskan lebih lanjut.",
+    "deskripsi": "IVBC menjadi wadah bagi mahasiswa untuk mengisi waktu luang, bermain bola voli, dan mengembangkan kemampuan. Kegiatan tersedia untuk anggota yang ingin bermain santai maupun yang ingin berlatih lebih serius. Terdapat latihan di kampus dan kegiatan latihan fisik atau bermain di luar kampus.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "BADMINTON CLUB ITSB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "UKM Badminton bertujuan menambah relasi mahasiswa serta menjadi wadah untuk melatih dan mengembangkan kemampuan di bidang bulu tangkis. Kegiatan meliputi latihan bersama dan pertandingan persahabatan. Latihan rutin disebutkan berlangsung satu kali seminggu, yaitu Minggu malam.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki keinginan dan ketertarikan untuk belajar atau bermain bulu tangkis.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan dasar bermain bulu tangkis dapat membantu, tetapi tidak diwajibkan. Kemauan untuk belajar lebih diutamakan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum pernah bermain bulu tangkis tetap dapat bergabung. Anggota dapat belajar teknik dan bermain bersama.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok melalui latihan dan permainan bersama.",
+      "6. Lokasi kegiatan": "Kegiatan lebih sering dilakukan di dalam ruangan (indoor), seperti di sport center. Pertandingan persahabatan antarkampus juga dilakukan di lapangan indoor.",
+      "7. Komitmen waktu": "Belum disebutkan secara langsung dalam kategori rendah, sedang, atau tinggi. Anggota yang berhalangan hadir dapat menyampaikan izin melalui grup.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan khusus untuk menjadi pengurus belum ditetapkan secara jelas karena struktur kepengurusan UKM masih dalam tahap pengembangan. Informasi persyaratan penerimaan anggota umum tidak dijelaskan secara rinci.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki niat atau kemauan. 2) Rajin. 3) Disiplin."
+    },
+    "slug": "badminton",
+    "kategori": "Olahraga",
+    "minat": [
+      "olahraga"
+    ],
+    "bakat": [
+      "fisik"
+    ],
+    "kemampuan": [
+      "bulu tangkis"
+    ],
+    "pola": "kelompok",
+    "lokasi": "indoor",
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan khusus untuk menjadi pengurus belum ditetapkan secara jelas karena struktur kepengurusan UKM masih dalam tahap pengembangan. Informasi persyaratan penerimaan anggota umum tidak dijelaskan secara rinci.",
+    "deskripsi": "UKM Badminton bertujuan menambah relasi mahasiswa serta menjadi wadah untuk melatih dan mengembangkan kemampuan di bidang bulu tangkis. Kegiatan meliputi latihan bersama dan pertandingan persahabatan. Latihan rutin disebutkan berlangsung satu kali seminggu, yaitu Minggu malam.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "SOCIETY OF RENEWABLE ENERGY (SRE) ITSB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "SRE berfokus pada pengenalan dan pemahaman mengenai energi baru terbarukan. Kegiatan yang disebutkan antara lain pengumpulan minyak jelantah agar dapat dimanfaatkan kembali, kegiatan terkait panel surya, pembuatan website, serta kegiatan lingkungan seperti penanaman mangrove. Pengurus mengadakan rapat program kerja setiap Rabu dan evaluasi satu kali setiap bulan.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan untuk mengetahui, mempelajari, dan memahami energi baru terbarukan serta isu lingkungan.",
+      "3. Bakat atau kemampuan pendukung": "Pengetahuan atau kemampuan khusus di bidang energi belum menjadi persyaratan utama. Rasa ingin tahu dan kemauan untuk mempelajari energi baru terbarukan lebih diutamakan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung selama memiliki semangat dan rasa ingin tahu terhadap energi baru terbarukan.",
+      "5. Bentuk kegiatan": "Kegiatan merupakan gabungan antara aktivitas individu dan kelompok.",
+      "6. Lokasi kegiatan": "Lebih sering dilakukan di luar ruangan (outdoor), terutama untuk kegiatan yang melibatkan interaksi dengan lingkungan dan masyarakat, seperti pengumpulan minyak jelantah dan penanaman mangrove.",
+      "7. Komitmen waktu": "Tinggi. Pengurus menyampaikan bahwa UKM membutuhkan anggota dengan komitmen yang tinggi.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan administratif penerimaan anggota tidak dijelaskan secara rinci. Pengurus menekankan kesungguhan, rasa ingin tahu, dan komitmen calon anggota.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Percaya diri. 2) Memiliki rasa ingin tahu yang tinggi. 3) Memiliki kemauan untuk belajar dan mengembangkan pengetahuan."
+    },
+    "slug": "sre",
+    "kategori": "Lingkungan dan Energi",
+    "minat": [
+      "lingkungan",
+      "energi"
+    ],
+    "bakat": [
+      "rasa ingin tahu"
+    ],
+    "kemampuan": [],
+    "pola": "keduanya",
+    "lokasi": "outdoor",
+    "komitmen": "tinggi",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan administratif penerimaan anggota tidak dijelaskan secara rinci. Pengurus menekankan kesungguhan, rasa ingin tahu, dan komitmen calon anggota.",
+    "deskripsi": "SRE berfokus pada pengenalan dan pemahaman mengenai energi baru terbarukan. Kegiatan yang disebutkan antara lain pengumpulan minyak jelantah agar dapat dimanfaatkan kembali, kegiatan terkait panel surya, pembuatan website, serta kegiatan lingkungan seperti penanaman mangrove. Pengurus mengadakan rapat program kerja setiap Rabu dan evaluasi satu kali setiap bulan.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "MAHASISWA KRISTEN PROTESTAN DAN KATOLIK (OIKUMENE)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "KM Oikumene merupakan wadah kegiatan keagamaan bagi mahasiswa Kristen Protestan dan Katolik. Kegiatan yang dijelaskan berfokus pada ibadah dan pelayanan. Terdapat kegiatan rutin setiap Jumat serta latihan pada Kamis malam sebelum kegiatan.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan untuk mengikuti kegiatan keagamaan Kristen, membangun kebersamaan, dan terlibat dalam pelayanan.",
+      "3. Bakat atau kemampuan pendukung": "Tidak ada kemampuan khusus yang diwajibkan. Bidang pelayanan yang tersedia antara lain musik atau bernyanyi, persiapan perlengkapan dan logistik, fotografi atau videografi, desain dan pengeditan, serta komunikasi.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum memiliki pengalaman dapat bergabung. UKM menjadi wadah untuk mengenali dan mengembangkan potensi anggota.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok.",
+      "6. Lokasi kegiatan": "Kegiatan lebih sering dilakukan di dalam ruangan (indoor), karena saat wawancara kegiatan masih berfokus pada ibadah.",
+      "7. Komitmen waktu": "Sedang. Kegiatan rutin berlangsung setiap Jumat dan terdapat latihan pada Kamis malam.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan utama yang disebutkan adalah mahasiswa beragama Kristen Protestan atau Katolik dan merupakan mahasiswa ITSB. Pengurus menyampaikan bahwa mahasiswa dari berbagai aliran Kristen dapat diterima.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "Tiga karakteristik khusus tidak dirumuskan secara eksplisit. Berdasarkan penjelasan pengurus, karakteristik yang mendukung adalah memiliki kemauan untuk bergabung, bersedia melayani, dan mau mengembangkan potensi diri."
+    },
+    "slug": "oikumene",
+    "kategori": "Keagamaan",
+    "minat": [
+      "keagamaan",
+      "pelayanan"
+    ],
+    "bakat": [
+      "kerja sama"
+    ],
+    "kemampuan": [
+      "bernyanyi",
+      "alat musik",
+      "fotografi",
+      "desain"
+    ],
+    "pola": "kelompok",
+    "lokasi": "indoor",
+    "komitmen": "sedang",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan utama yang disebutkan adalah mahasiswa beragama Kristen Protestan atau Katolik dan merupakan mahasiswa ITSB. Pengurus menyampaikan bahwa mahasiswa dari berbagai aliran Kristen dapat diterima.",
+    "deskripsi": "KM Oikumene merupakan wadah kegiatan keagamaan bagi mahasiswa Kristen Protestan dan Katolik. Kegiatan yang dijelaskan berfokus pada ibadah dan pelayanan. Terdapat kegiatan rutin setiap Jumat serta latihan pada Kamis malam sebelum kegiatan.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ENTERTAINMENT MUSIC ITSB (EMI)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "EMI merupakan komunitas bagi mahasiswa yang menyukai seni musik. EMI memiliki dua bagian, yaitu EMI Community dan EMI Band. Mahasiswa yang mendaftar bergabung terlebih dahulu ke EMI Community. Mahasiswa yang ingin masuk ke EMI Band mengikuti proses seleksi. Kegiatan meliputi latihan musik dan penampilan pada acara kampus maupun kegiatan lainnya.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang menyukai seni musik dan ingin menyalurkan ketertarikannya melalui komunitas atau kegiatan bermusik.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan dasar vokal atau memainkan alat musik menjadi nilai tambah, terutama untuk bergabung dengan EMI Band. Namun, kemampuan tersebut bukan syarat mutlak untuk bergabung dengan EMI Community.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula tetap dapat bergabung, termasuk yang belum memiliki kemampuan dasar musik. Mahasiswa yang sudah lebih mahir dapat mencoba mengikuti seleksi untuk EMI Band.",
+      "5. Bentuk kegiatan": "Kegiatan lebih sering dilakukan secara berkelompok.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di dalam ruangan, baik di kampus maupun di studio musik. Pengurus pernah menggunakan studio dengan dukungan dana dari kampus.",
+      "7. Komitmen waktu": "Sedang secara umum, tetapi tingkat komitmen bergantung pada bagian yang diikuti. EMI Community lebih fleksibel, sedangkan EMI Band membutuhkan keseriusan lebih tinggi.",
+      "8. Persyaratan atau kriteria penerimaan": "Untuk EMI Community, mahasiswa dapat bergabung sebagai komunitas. Untuk EMI Band, terdapat seleksi bagi mahasiswa yang ingin menjadi bagian dari band. Struktur pengurus Community dan pengelolaan Band memiliki pembagian peran tersendiri.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "Pengurus tidak menyebutkan tiga kriteria secara tegas. Penjelasan yang diberikan mengarah pada mahasiswa yang menyukai musik, memiliki ketertarikan untuk bermusik, serta nyaman berinteraksi dan bekerja sama dengan orang lain."
+    },
+    "slug": "emi",
+    "kategori": "Musik",
+    "minat": [
+      "musik",
+      "seni"
+    ],
+    "bakat": [
+      "kreatif"
+    ],
+    "kemampuan": [
+      "alat musik",
+      "bernyanyi"
+    ],
+    "pola": "kelompok",
+    "lokasi": "indoor",
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Untuk EMI Community, mahasiswa dapat bergabung sebagai komunitas. Untuk EMI Band, terdapat seleksi bagi mahasiswa yang ingin menjadi bagian dari band. Struktur pengurus Community dan pengelolaan Band memiliki pembagian peran tersendiri.",
+    "deskripsi": "EMI merupakan komunitas bagi mahasiswa yang menyukai seni musik. EMI memiliki dua bagian, yaitu EMI Community dan EMI Band. Mahasiswa yang mendaftar bergabung terlebih dahulu ke EMI Community. Mahasiswa yang ingin masuk ke EMI Band mengikuti proses seleksi. Kegiatan meliputi latihan musik dan penampilan pada acara kampus maupun kegiatan lainnya.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "RESIMEN MAHASISWA SATUAN ITSB (MENWA)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "Menwa bertujuan membangun jiwa kepemimpinan (leadership), tanggung jawab, dan kedisiplinan mahasiswa. Kegiatan latihan dilakukan sekitar satu kali dalam seminggu dengan materi yang dapat berubah, seperti renang, lari, dan memanah. Pelatihan dibimbing oleh senior.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang tertarik mengembangkan kepemimpinan, menyukai kegiatan yang berkaitan dengan kedisiplinan dan kemiliteran, serta ingin mengasah tanggung jawab.",
+      "3. Bakat atau kemampuan pendukung": "Kondisi fisik dan mental yang kuat serta kebiasaan berolahraga menjadi kemampuan pendukung. Pengurus menyebutkan pentingnya rutin mengikuti olahraga.",
+      "4. Kesempatan bagi pemula": "Informasi mengenai pengalaman awal calon anggota tidak dijelaskan secara terperinci. Namun, pengurus menyampaikan bahwa calon anggota perlu mengikuti pendidikan dasar sebelum dapat terlibat dalam kepengurusan.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok melalui latihan dan pendidikan.",
+      "6. Lokasi kegiatan": "Lokasi indoor atau outdoor tidak dijelaskan secara khusus. Materi latihan seperti lari, renang, dan memanah menunjukkan adanya kegiatan fisik di luar ruangan maupun fasilitas tertentu.",
+      "7. Komitmen waktu": "Belum disebutkan secara langsung dalam kategori rendah, sedang, atau tinggi. Latihan dilaksanakan sekitar satu kali dalam seminggu dan membutuhkan kesiapan fisik serta mental.",
+      "8. Persyaratan atau kriteria penerimaan": "Pengurus menyebutkan tidak ada persyaratan khusus yang dirinci, tetapi calon anggota harus memiliki mental dan fisik yang kuat serta rutin berolahraga. Untuk menjadi pengurus, calon anggota harus terlebih dahulu mengikuti dan lulus pendidikan dasar.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki jiwa kepemimpinan. 2) Berani. 3) Memiliki mental yang kuat."
+    },
+    "slug": "menwa",
+    "kategori": "Kepemimpinan",
+    "minat": [
+      "kepemimpinan",
+      "sosial"
+    ],
+    "bakat": [],
+    "kemampuan": [],
+    "pola": null,
+    "lokasi": null,
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Pengurus menyebutkan tidak ada persyaratan khusus yang dirinci, tetapi calon anggota harus memiliki mental dan fisik yang kuat serta rutin berolahraga. Untuk menjadi pengurus, calon anggota harus terlebih dahulu mengikuti dan lulus pendidikan dasar.",
+    "deskripsi": "Menwa bertujuan membangun jiwa kepemimpinan (leadership), tanggung jawab, dan kedisiplinan mahasiswa. Kegiatan latihan dilakukan sekitar satu kali dalam seminggu dengan materi yang dapat berubah, seperti renang, lari, dan memanah. Pelatihan dibimbing oleh senior.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ITSB WARRIOR (BASKET)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "UKM Basket menjadi wadah bagi mahasiswa untuk mengeksplorasi dan mengembangkan bakat bermain bola basket. Kegiatan utama berupa latihan rutin dua kali seminggu untuk melatih teknik dasar dan memperkuat fundamental permainan. Jadwal latihan disebutkan pada Senin dan Sabtu.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki rasa ingin tahu dan ketertarikan untuk mengenal serta mempelajari olahraga bola basket.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan bermain basket tidak harus sudah dimiliki sejak awal. Ketertarikan terhadap olahraga dan kemauan untuk meningkatkan kemampuan menjadi hal yang lebih penting.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung karena kegiatan juga ditujukan untuk mengeksplorasi bakat dan mempelajari dasar-dasar permainan.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok karena permainan basket membutuhkan kerja sama dan komunikasi ant pemain.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di dalam dan di luar kampus. Latihan biasanya menggunakan lapangan basket kampus, tetapi terkadang menyewa lapangan di luar kampus untuk memperoleh suasana baru atau latihan yang lebih intens.",
+      "7. Komitmen waktu": "Sedang. Latihan rutin berlangsung dua kali seminggu, tetapi anggota tetap membutuhkan komitmen dan waktu tambahan apabila ingin meningkatkan kemampuan bermain.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan khusus penerimaan anggota tidak dijelaskan secara rinci. Informasi yang disampaikan mengenai kepengurusan adalah periode 2025–2026 dan rencana pergantian periode sekitar November.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki rasa ingin tahu terhadap olahraga basket. 2) Menyukai olahraga. 3) Menikmati kegiatan olahraga serta mampu berkomunikasi dan bekerja sama dengan orang lain."
+    },
+    "slug": "warrior",
+    "kategori": "Olahraga",
+    "minat": [
+      "olahraga"
+    ],
+    "bakat": [
+      "fisik",
+      "kerja sama"
+    ],
+    "kemampuan": [
+      "basket"
+    ],
+    "pola": "kelompok",
+    "lokasi": null,
+    "komitmen": "sedang",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan khusus penerimaan anggota tidak dijelaskan secara rinci. Informasi yang disampaikan mengenai kepengurusan adalah periode 2025–2026 dan rencana pergantian periode sekitar November.",
+    "deskripsi": "UKM Basket menjadi wadah bagi mahasiswa untuk mengeksplorasi dan mengembangkan bakat bermain bola basket. Kegiatan utama berupa latihan rutin dua kali seminggu untuk melatih teknik dasar dan memperkuat fundamental permainan. Jadwal latihan disebutkan pada Senin dan Sabtu.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "GAMMUS ITSB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "Gammus bertujuan membangun kegiatan positif yang bernuansa Islami. Kegiatan yang dijelaskan meliputi salat Jumat, pengajian mingguan, peringatan hari besar Islam, serta pembagian Jumat Berkah. Pada saat wawancara, kegiatan yang masih berjalan secara rutin terutama salat Jumat dan pembagian Jumat Berkah.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa Muslim yang memiliki ketertarikan untuk mengikuti kegiatan keagamaan dan kegiatan positif bernuansa Islami.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan membaca Al-Qur'an atau pengetahuan agama tertentu tidak menjadi persyaratan wajib. Kemauan untuk belajar dan mengikuti kegiatan lebih diutamakan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum memiliki pengetahuan atau kemampuan dasar tetap dapat bergabung. Anggota dapat belajar secara bertahap bersama-sama.",
+      "5. Bentuk kegiatan": "Kegiatan melibatkan kebersamaan dan pelaksanaan secara berkelompok.",
+      "6. Lokasi kegiatan": "Lokasi kegiatan indoor atau outdoor tidak dijelaskan secara khusus dalam wawancara.",
+      "7. Komitmen waktu": "Belum disebutkan secara langsung dalam kategori rendah, sedang, atau tinggi. Kegiatan yang masih aktif disebutkan berlangsung secara rutin, terutama salat Jumat dan kegiatan Jumat Berkah.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan utama yang disebutkan adalah mahasiswa beragama Islam. Tidak ada persyaratan khusus mengenai kemampuan membaca Al-Qur'an, nilai akademik, atau kemampuan tertentu.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Percaya diri. 2) Memiliki keinginan atau kemauan untuk mengikuti kegiatan. 3) Ikhlas dalam menjalankan kegiatan."
+    },
+    "slug": "gammus",
+    "kategori": "Keagamaan",
+    "minat": [
+      "keagamaan",
+      "pelayanan"
+    ],
+    "bakat": [],
+    "kemampuan": [],
+    "pola": "kelompok",
+    "lokasi": null,
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan utama yang disebutkan adalah mahasiswa beragama Islam. Tidak ada persyaratan khusus mengenai kemampuan membaca Al-Qur'an, nilai akademik, atau kemampuan tertentu.",
+    "deskripsi": "Gammus bertujuan membangun kegiatan positif yang bernuansa Islami. Kegiatan yang dijelaskan meliputi salat Jumat, pengajian mingguan, peringatan hari besar Islam, serta pembagian Jumat Berkah. Pada saat wawancara, kegiatan yang masih berjalan secara rutin terutama salat Jumat dan pembagian Jumat Berkah.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ARCHERY ITSB (PANAHAN)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "UKM Panahan menjadi wadah bagi mahasiswa yang memiliki bakat maupun ketertarikan untuk mencoba dan mengembangkan kemampuan memanah. UKM ini juga memberikan kesempatan bagi mahasiswa yang sebelumnya belum pernah mencoba olahraga panahan.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan untuk mencoba, mempelajari, dan berlatih olahraga panahan.",
+      "3. Bakat atau kemampuan pendukung": "Tidak ada bakat atau kemampuan khusus yang diwajibkan. Minat untuk belajar dan keberanian mencoba menjadi hal yang penting.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung. Anggota dapat belajar bersama dari dasar.",
+      "5. Bentuk kegiatan": "Bentuk kegiatan individu atau kelompok tidak dijelaskan secara langsung dalam wawancara.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di luar ruangan (outdoor).",
+      "7. Komitmen waktu": "Belum disebutkan secara langsung dalam kategori rendah, sedang, atau tinggi.",
+      "8. Persyaratan atau kriteria penerimaan": "Tidak disebutkan adanya seleksi khusus untuk menjadi pengurus. Pihak BPH akan mempertimbangkan kesesuaian calon apabila mahasiswa ingin bergabung dalam kepengurusan. Persyaratan penerimaan anggota umum tidak dijelaskan lebih lanjut.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki minat untuk belajar. 2) Berani mencoba dan memiliki semangat. 3) Konsisten."
+    },
+    "slug": "archery",
+    "kategori": "Olahraga",
+    "minat": [
+      "olahraga"
+    ],
+    "bakat": [
+      "konsistensi"
+    ],
+    "kemampuan": [
+      "memanah"
+    ],
+    "pola": null,
+    "lokasi": "outdoor",
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Tidak disebutkan adanya seleksi khusus untuk menjadi pengurus. Pihak BPH akan mempertimbangkan kesesuaian calon apabila mahasiswa ingin bergabung dalam kepengurusan. Persyaratan penerimaan anggota umum tidak dijelaskan lebih lanjut.",
+    "deskripsi": "UKM Panahan menjadi wadah bagi mahasiswa yang memiliki bakat maupun ketertarikan untuk mencoba dan mengembangkan kemampuan memanah. UKM ini juga memberikan kesempatan bagi mahasiswa yang sebelumnya belum pernah mencoba olahraga panahan.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "PADUAN SUARA MAHASISWA (PSM)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "PSM bertujuan melatih kemampuan vokal mahasiswa dan mendukung kebutuhan penampilan pada acara kampus, seperti wisuda, penerimaan mahasiswa baru, serta kegiatan besar lainnya. Kegiatan utama meliputi latihan dan persiapan penampilan paduan suara.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki minat untuk bernyanyi dan tertarik mengembangkan kemampuan vokal.",
+      "3. Bakat atau kemampuan pendukung": "Memiliki suara yang baik dapat menjadi nilai tambah, tetapi kemampuan vokal masih dapat dilatih. Anggota dapat mempelajari pembagian jenis suara seperti sopran, alto, tenor, dan bass.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum memiliki pengalaman bernyanyi atau paduan suara tetap dapat bergabung.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok karena paduan suara membutuhkan banyak anggota untuk memadukan berbagai jenis suara.",
+      "6. Lokasi kegiatan": "Latihan lebih sering dilakukan di dalam ruangan (indoor). Lokasi penampilan menyesuaikan tempat penyelenggaraan acara.",
+      "7. Komitmen waktu": "Tinggi. Anggota perlu mengikuti rangkaian latihan dan persiapan agar suara seluruh anggota dapat dipadukan dengan baik.",
+      "8. Persyaratan atau kriteria penerimaan": "Tidak ada perbedaan kemampuan khusus antara pengurus dan anggota. Keduanya sama-sama belajar dan mengembangkan kemampuan paduan suara. Persyaratan administratif penerimaan tidak dijelaskan lebih lanjut.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Berkomitmen mengikuti rangkaian latihan dan persiapan. 2) Mau belajar. 3) Terbuka terhadap kritik dan masukan."
+    },
+    "slug": "psm",
+    "kategori": "Musik",
+    "minat": [
+      "musik",
+      "seni"
+    ],
+    "bakat": [],
+    "kemampuan": [
+      "bernyanyi"
+    ],
+    "pola": "kelompok",
+    "lokasi": "indoor",
+    "komitmen": "tinggi",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Tidak ada perbedaan kemampuan khusus antara pengurus dan anggota. Keduanya sama-sama belajar dan mengembangkan kemampuan paduan suara. Persyaratan administratif penerimaan tidak dijelaskan lebih lanjut.",
+    "deskripsi": "PSM bertujuan melatih kemampuan vokal mahasiswa dan mendukung kebutuhan penampilan pada acara kampus, seperti wisuda, penerimaan mahasiswa baru, serta kegiatan besar lainnya. Kegiatan utama meliputi latihan dan persiapan penampilan paduan suara.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ITSB CHINESE SOCIETY CLUB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "Chinese Society Club menjadi wadah bagi mahasiswa yang ingin mempelajari dan melestarikan budaya Mandarin, tidak hanya bahasanya. Kegiatan rutin dilaksanakan satu kali seminggu pada akhir pekan, meliputi latihan percakapan (conversation), perayaan Imlek, lomba kaligrafi, dan kompetisi pidato Mandarin.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang tertarik pada bahasa asing, budaya Asia Timur, serta industri kreatif seperti hiburan, drama, dan bisnis yang berkaitan dengan Mandarin.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan berbahasa Mandarin atau pengalaman terkait budaya Tiongkok tidak diwajibkan. Rasa ingin tahu, keterbukaan, dan kemauan untuk belajar menjadi pendukung utama.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum memiliki kemampuan dasar dapat bergabung dan belajar bersama anggota lainnya.",
+      "5. Bentuk kegiatan": "Kegiatan merupakan gabungan antara individu dan kelompok. Terdapat aktivitas yang dilakukan secara mandiri serta latihan dan kegiatan bersama teman.",
+      "6. Lokasi kegiatan": "Mayoritas kegiatan dilakukan di dalam ruangan (indoor), seperti kelas dan latihan rutin. Kegiatan outdoor juga dilakukan, misalnya kunjungan budaya ke sekolah atau kampus lain.",
+      "7. Komitmen waktu": "Kegiatan rutin berlangsung satu kali seminggu, setiap Sabtu, selama sekitar dua jam. Menjelang kegiatan besar seperti perayaan Imlek, dapat terdapat rapat dan persiapan tambahan yang disesuaikan dengan jadwal kuliah anggota. Tingkat komitmen rendah, sedang, atau tinggi tidak disebutkan secara eksplisit.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan administratif penerimaan anggota tidak dijelaskan secara rinci. Kegiatan rutin dilaksanakan setiap Sabtu dan anggota yang terlibat dalam kepanitiaan acara besar perlu mengikuti rapat serta persiapan tambahan.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki rasa ingin tahu dan kemauan belajar. 2) Komunikatif dan terbuka. 3) Bertanggung jawab terhadap tugas dan komunitas."
+    },
+    "slug": "chinese_society",
+    "kategori": "Bahasa dan Budaya",
+    "minat": [
+      "bahasa",
+      "budaya"
+    ],
+    "bakat": [
+      "komunikasi",
+      "rasa ingin tahu"
+    ],
+    "kemampuan": [
+      "bahasa asing"
+    ],
+    "pola": "keduanya",
+    "lokasi": "indoor",
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan administratif penerimaan anggota tidak dijelaskan secara rinci. Kegiatan rutin dilaksanakan setiap Sabtu dan anggota yang terlibat dalam kepanitiaan acara besar perlu mengikuti rapat serta persiapan tambahan.",
+    "deskripsi": "Chinese Society Club menjadi wadah bagi mahasiswa yang ingin mempelajari dan melestarikan budaya Mandarin, tidak hanya bahasanya. Kegiatan rutin dilaksanakan satu kali seminggu pada akhir pekan, meliputi latihan percakapan (conversation), perayaan Imlek, lomba kaligrafi, dan kompetisi pidato Mandarin.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "PERSEKUTUAN MAHASISWA KRISTEN (PMK) ITSB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "PMK bertujuan membantu mahasiswa Kristen mengenal Kristus dan bertumbuh dalam pengetahuan serta kehidupan kerohanian. Kegiatan meliputi ibadah rutin setiap Jumat, kelompok tumbuh bersama (growing group), serta seminar teologi dan pembinaan iman Kristen.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki keinginan untuk mengenal dan bertumbuh dalam kehidupan kerohanian Kristen, belajar bersama, serta terlibat dalam kegiatan persekutuan.",
+      "3. Bakat atau kemampuan pendukung": "Bakat dan kemampuan khusus bukan persyaratan utama. Kegiatan berfokus pada belajar, mengenal sesama, dan mengenal Tuhan. Keterampilan pelayanan seperti musik dapat menjadi bentuk kontribusi anggota.",
+      "4. Kesempatan bagi pemula": "Mahasiswa yang belum memiliki pengalaman atau kemampuan khusus tetap dapat bergabung karena tidak ada pengujian bakat untuk menjadi anggota.",
+      "5. Bentuk kegiatan": "Kegiatan dilakukan secara berkelompok, baik dalam ibadah maupun kelompok tumbuh bersama.",
+      "6. Lokasi kegiatan": "Kegiatan dilakukan di dalam dan di luar kampus. Ibadah rutin dilaksanakan di kampus, sedangkan growing group dapat berlangsung di tempat yang fleksibel, seperti kafe atau rumah pembina. Seminar juga dapat dilaksanakan di luar kampus.",
+      "7. Komitmen waktu": "Bagi anggota bersifat lebih fleksibel, sedangkan pengurus membutuhkan komitmen yang tinggi untuk mengikuti ibadah, growing group, dan kegiatan lainnya.",
+      "8. Persyaratan atau kriteria penerimaan": "PMK ditujukan bagi mahasiswa Kristen. Mahasiswa yang bergabung menjadi anggota terlebih dahulu. Untuk menjadi pengurus, diperlukan komitmen yang lebih tinggi dalam mengikuti kegiatan dan pertemuan.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Memiliki keinginan untuk bertumbuh dalam Tuhan. 2) Memiliki kemauan untuk terus belajar. 3) Memiliki kemauan untuk melayani."
+    },
+    "slug": "pmk",
+    "kategori": "Keagamaan",
+    "minat": [
+      "keagamaan",
+      "pelayanan"
+    ],
+    "bakat": [],
+    "kemampuan": [],
+    "pola": "kelompok",
+    "lokasi": null,
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "PMK ditujukan bagi mahasiswa Kristen. Mahasiswa yang bergabung menjadi anggota terlebih dahulu. Untuk menjadi pengurus, diperlukan komitmen yang lebih tinggi dalam mengikuti kegiatan dan pertemuan.",
+    "deskripsi": "PMK bertujuan membantu mahasiswa Kristen mengenal Kristus dan bertumbuh dalam pengetahuan serta kehidupan kerohanian. Kegiatan meliputi ibadah rutin setiap Jumat, kelompok tumbuh bersama (growing group), serta seminar teologi dan pembinaan iman Kristen.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "IKATAN MAHASISWA JURNALISTIK ITSB (IMAJI)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "IMAJI berfokus pada penyampaian informasi dari lingkungan internal maupun eksternal kampus. Kegiatan mencakup pelatihan jurnalistik, pelatihan dasar organisasi, penyusunan berita, penggunaan bahasa, fotografi, pengambilan gambar, dan tata letak berita.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang tertarik pada dunia jurnalistik, informasi, berita, dan kegiatan media.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan menulis, fotografi, mengambil video, menyusun berita, atau melakukan tata letak dapat menjadi nilai tambah. Namun, kemampuan tersebut tidak diwajibkan karena tersedia pelatihan.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula sangat diperbolehkan bergabung. Anggota akan belajar dari dasar, termasuk teknik pengambilan foto, kamera, penulisan narasi, dan tata letak berita.",
+      "5. Bentuk kegiatan": "Bentuk kegiatan individu atau kelompok tidak dijelaskan secara langsung. Aktivitas jurnalistik dapat melibatkan pembagian tugas dan kerja sama dalam proses peliputan serta penyusunan berita.",
+      "6. Lokasi kegiatan": "Kegiatan lebih sering dilakukan di area kampus. Peliputan di luar kampus dapat dilakukan sesuai kebutuhan dan ketentuan perizinan.",
+      "7. Komitmen waktu": "Tinggi. Pengurus menyampaikan bahwa anggota perlu memberikan komitmen penuh dan terus berlatih untuk mengembangkan kemampuan.",
+      "8. Persyaratan atau kriteria penerimaan": "Calon anggota mengisi formulir pendaftaran yang dibagikan melalui Instagram IMAJI. Seluruh pendaftar dapat bergabung, sedangkan penempatan divisi dilakukan setelah anggota mengikuti pelatihan dan pengenalan kemampuan.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Suka membaca berita. 2) Bersedia terus berlatih. 3) Memiliki komitmen."
+    },
+    "slug": "imaji",
+    "kategori": "Jurnalistik",
+    "minat": [
+      "jurnalistik",
+      "media"
+    ],
+    "bakat": [
+      "kreatif"
+    ],
+    "kemampuan": [
+      "menulis",
+      "fotografi",
+      "videografi",
+      "desain"
+    ],
+    "pola": null,
+    "lokasi": null,
+    "komitmen": "tinggi",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Calon anggota mengisi formulir pendaftaran yang dibagikan melalui Instagram IMAJI. Seluruh pendaftar dapat bergabung, sedangkan penempatan divisi dilakukan setelah anggota mengikuti pelatihan dan pengenalan kemampuan.",
+    "deskripsi": "IMAJI berfokus pada penyampaian informasi dari lingkungan internal maupun eksternal kampus. Kegiatan mencakup pelatihan jurnalistik, pelatihan dasar organisasi, penyusunan berita, penggunaan bahasa, fotografi, pengambilan gambar, dan tata letak berita.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "MEDIC / KESEHATAN CLUB",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "UKM Medic bertujuan membantu memenuhi kebutuhan layanan kesehatan di lingkungan kampus, termasuk pengelolaan ruang kesehatan (UKS), penyediaan kebutuhan obat-obatan, dan dukungan kesehatan pada kegiatan kampus seperti PKKMB dan OSJUR. Kegiatan juga meliputi pelatihan kesehatan setiap dua bulan serta penjagaan ruang kesehatan sesuai jadwal.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan pada bidang kesehatan, kepedulian terhadap kesehatan, dan kegiatan yang berkaitan dengan pelayanan kesehatan kampus.",
+      "3. Bakat atau kemampuan pendukung": "Pengetahuan dasar kesehatan menjadi nilai tambah. Namun, mahasiswa yang belum memiliki dasar kesehatan tetap dapat bergabung apabila memiliki minat karena tersedia pelatihan berkala.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula dapat bergabung selama memiliki minat. Pengurus menyelenggarakan pelatihan setiap dua bulan untuk meningkatkan pengetahuan dan kemampuan anggota.",
+      "5. Bentuk kegiatan": "Bentuk kegiatan individu atau kelompok tidak dijelaskan secara langsung. Kegiatan mencakup pelayanan, pelatihan, dan penjagaan ruang kesehatan dengan pembagian jadwal.",
+      "6. Lokasi kegiatan": "Pelatihan biasanya dilakukan di dalam ruangan (indoor), seperti di IRC atau area depan pos satpam, menyesuaikan ketersediaan tempat. Kegiatan pelayanan kesehatan mengikuti kebutuhan acara kampus.",
+      "7. Komitmen waktu": "Cenderung rendah hingga sedang. UKM disebut cukup fleksibel, tetapi anggota harus serius ketika ada acara, pelatihan, atau saat mendapat jadwal penjagaan ruang kesehatan. Kategori resmi tidak disebutkan secara eksplisit.",
+      "8. Persyaratan atau kriteria penerimaan": "Untuk kepengurusan, pengurus menyebutkan adanya ketentuan agar tidak merangkap sebagai BPH di UKM atau HIMA lain. Persyaratan penerimaan anggota umum tidak dijelaskan secara rinci.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Tidak mudah mengeluh. 2) Memiliki komitmen dan kepedulian terhadap kesehatan. 3) Siap ketika dibutuhkan."
+    },
+    "slug": "medic",
+    "kategori": "Kesehatan",
+    "minat": [
+      "kesehatan",
+      "sosial"
+    ],
+    "bakat": [
+      "kepedulian"
+    ],
+    "kemampuan": [
+      "P3K"
+    ],
+    "pola": null,
+    "lokasi": null,
+    "komitmen": null,
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Untuk kepengurusan, pengurus menyebutkan adanya ketentuan agar tidak merangkap sebagai BPH di UKM atau HIMA lain. Persyaratan penerimaan anggota umum tidak dijelaskan secara rinci.",
+    "deskripsi": "UKM Medic bertujuan membantu memenuhi kebutuhan layanan kesehatan di lingkungan kampus, termasuk pengelolaan ruang kesehatan (UKS), penyediaan kebutuhan obat-obatan, dan dukungan kesehatan pada kegiatan kampus seperti PKKMB dan OSJUR. Kegiatan juga meliputi pelatihan kesehatan setiap dua bulan serta penjagaan ruang kesehatan sesuai jadwal.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  },
+  {
+    "nama": "ASOSIACAO ESTUDANTE DE TIMOR LESTE – ITSB (AETL-ITSB)",
+    "wawancara": {
+      "1. Tujuan dan kegiatan utama": "AETL-ITSB bertujuan membantu mahasiswa asal Timor Leste yang datang dan berkuliah di ITSB, antara lain melalui bantuan persiapan dokumen, komunikasi dengan pihak kampus, penerjemahan, pencarian tempat tinggal, dan pendampingan awal. UKM juga menjadi wadah untuk memperkenalkan dan melestarikan budaya Timor Leste, termasuk melalui penampilan tarian budaya.",
+      "2. Minat mahasiswa yang cocok": "Mahasiswa yang memiliki ketertarikan untuk membantu sesama mahasiswa Timor Leste serta memperkenalkan dan melestarikan budaya Timor Leste.",
+      "3. Bakat atau kemampuan pendukung": "Kemampuan khusus tidak diwajibkan. Kemampuan komunikasi dan bahasa dapat mendukung kegiatan pendampingan serta penerjemahan, tetapi pengurus menyampaikan bahwa semua mahasiswa yang memenuhi persyaratan dapat bergabung.",
+      "4. Kesempatan bagi pemula": "Mahasiswa pemula maupun yang belum memiliki pengalaman dapat bergabung.",
+      "5. Bentuk kegiatan": "Kegiatan lebih banyak dilakukan secara berkelompok karena pelaksanaan program dan pendampingan membutuhkan kerja sama.",
+      "6. Lokasi kegiatan": "Kegiatan dapat dilakukan di dalam dan di luar ruangan, tetapi lebih sering dilakukan di luar ruangan (outdoor).",
+      "7. Komitmen waktu": "Sedang.",
+      "8. Persyaratan atau kriteria penerimaan": "Persyaratan yang disebutkan adalah mahasiswa asal Timor Leste. Tidak terdapat persyaratan kemampuan khusus yang dijelaskan dalam wawancara.",
+      "9. Tiga karakteristik mahasiswa yang cocok": "1) Mau belajar. 2) Memiliki kemampuan komunikasi yang baik. 3) Pekerja keras."
+    },
+    "slug": "aetl",
+    "kategori": "Budaya dan Pendampingan",
+    "minat": [
+      "budaya",
+      "sosial",
+      "pelayanan"
+    ],
+    "bakat": [
+      "komunikasi",
+      "kerja sama"
+    ],
+    "kemampuan": [
+      "bahasa asing"
+    ],
+    "pola": "kelompok",
+    "lokasi": "outdoor",
+    "komitmen": "sedang",
+    "pemula": true,
+    "terverifikasi": false,
+    "aktif": true,
+    "kuota": null,
+    "seleksi": "Perlu konfirmasi kepada pengurus UKM",
+    "syarat": "Persyaratan yang disebutkan adalah mahasiswa asal Timor Leste. Tidak terdapat persyaratan kemampuan khusus yang dijelaskan dalam wawancara.",
+    "deskripsi": "AETL-ITSB bertujuan membantu mahasiswa asal Timor Leste yang datang dan berkuliah di ITSB, antara lain melalui bantuan persiapan dokumen, komunikasi dengan pihak kampus, penerjemahan, pencarian tempat tinggal, dan pendampingan awal. UKM juga menjadi wadah untuk memperkenalkan dan melestarikan budaya Timor Leste, termasuk melalui penampilan tarian budaya.",
+    "catatan": "Tag minat, bakat, dan kemampuan merupakan pengodean tim dari wawancara; perlu ditinjau pengurus. Nilai kosong tidak digunakan dalam perhitungan kecocokan."
+  }
+]
