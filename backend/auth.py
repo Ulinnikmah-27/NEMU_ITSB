@@ -18,7 +18,8 @@ def clean_user(username):
     return username
 def public(row):return {k:row[k] for k in row.keys() if k!='password_hash'} if row else None
 def require(c,actor,roles):
-    u=c.execute('SELECT * FROM users WHERE id=? AND aktif=1',(actor,)).fetchone()
+    suffix=' FOR UPDATE' if getattr(c,'is_postgres',False) and c.write else ''
+    u=c.execute('SELECT * FROM users WHERE id=? AND aktif=1'+suffix,(actor,)).fetchone()
     if not u or u['role'] not in roles:raise AppError('Akses tidak diizinkan.')
     return u
 def create_user(c,username,password,nama,role='mahasiswa',nim=None,prodi='',angkatan='',ukm_id=None):
@@ -37,6 +38,7 @@ def register(username,password,nama,nim,prodi,angkatan):
 def login(username,password):
     username=username.strip().lower();error=False
     with connect(True) as c:
+        if getattr(c,'is_postgres',False):c.execute('SELECT pg_advisory_xact_lock(hashtext(?))',(username,))
         a=c.execute('SELECT * FROM login_attempts WHERE username=?',(username,)).fetchone()
         if a and a['locked_until']>time.time():raise AppError('Terlalu banyak percobaan. Coba lagi setelah 5 menit.')
         r=c.execute('SELECT * FROM users WHERE username=? AND aktif=1',(username,)).fetchone()

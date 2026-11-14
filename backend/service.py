@@ -3,17 +3,21 @@ import json,re,sqlite3
 from io import BytesIO
 from PIL import Image,UnidentifiedImageError
 from .db import connect,now,setting,club
+from .request_cache import cached_read
 from .auth import AppError,require,create_user,public,hash_password
 from .recommendation import validate,rank,MINAT,BAKAT,SKILL,LEVELS,PREFER,LOC
 
+@cached_read
 def config(actor):
     with connect() as c:
         require(c,actor,['admin','mahasiswa','pengurus'])
         return {r['key']:json.loads(r['value']) for r in c.execute('SELECT * FROM settings')}
+@cached_read
 def clubs(actor,include_inactive=False):
     with connect() as c:
         u=require(c,actor,['admin','mahasiswa','pengurus'])
         return [club(r) for r in c.execute('SELECT * FROM ukm ORDER BY nama') if r['aktif'] or (include_inactive and u['role']=='admin')]
+@cached_read
 def latest_answers(actor):
     with connect() as c:
         require(c,actor,['mahasiswa'])
@@ -37,6 +41,7 @@ def refresh_recommendations(actor):
         q=c.execute('SELECT * FROM kuesioner WHERE user_id=? ORDER BY id DESC LIMIT 1',(actor,)).fetchone()
         if not q:raise AppError('Isi kuesioner terlebih dahulu.')
         return _recommend(c,actor,q['id'],json.loads(q['jawaban']))
+@cached_read
 def recommendations(actor):
     with connect() as c:
         require(c,actor,['mahasiswa'])
@@ -68,6 +73,7 @@ def register_clubs(actor,ids):
             else:
                 c.execute('INSERT INTO pendaftaran(user_id,ukm_id,periode,rekomendasi_id,skor,created_at,updated_at) VALUES(?,?,?,?,?,?,?)',(actor,uid,period,rec['id'],results[uid]['skor'],now(),now()))
 
+@cached_read
 def registrations(actor):
     with connect() as c:
         u=require(c,actor,['mahasiswa','pengurus','admin'])
@@ -92,6 +98,7 @@ def decide(actor,rid,status,note):
         r=c.execute('SELECT * FROM pendaftaran WHERE id=?',(rid,)).fetchone()
         if not r or (u['role']=='pengurus' and r['ukm_id']!=u['ukm_id']):raise AppError('Pendaftaran ini bukan kewenanganmu.')
         if r['status']=='Dibatalkan':raise AppError('Pendaftaran sudah dibatalkan mahasiswa.')
+        if getattr(c,'is_postgres',False):c.execute('SELECT id FROM ukm WHERE id=? FOR UPDATE',(r['ukm_id'],))
         kuota=club(c.execute('SELECT * FROM ukm WHERE id=?',(r['ukm_id'],)).fetchone()).get('kuota')
         if status=='Diterima' and r['status']!='Diterima' and kuota is not None:
             n=c.execute("SELECT count(*) FROM pendaftaran WHERE ukm_id=? AND periode=? AND status='Diterima' AND konfirmasi!='Dilepas'",(r['ukm_id'],r['periode'])).fetchone()[0]
@@ -180,8 +187,19 @@ def save_asset(actor,key,data):
         require(c,actor,['admin'])
         if key!='nemu':
             if not key.startswith('ukm:') or not key[4:].isdigit() or not c.execute('SELECT 1 FROM ukm WHERE id=?',(int(key[4:]),)).fetchone():raise AppError('Kunci logo tidak valid.')
-        c.execute('INSERT OR REPLACE INTO assets VALUES(?,?,?)',(key,data,'image/png'))
-def asset(actor,key):
+        stored_key='nemu_brand_20261114' if key=='nemu' else key
+        c.execute('INSERT OR REPLACE INTO assets VALUES(?,?,?)',(stored_key,data,'image/png'))
+@cached_read
+def asset_bundle(actor):
     with connect() as c:
         require(c,actor,['mahasiswa','admin','pengurus'])
-        r=c.execute('SELECT data FROM assets WHERE key=?',(key,)).fetchone();return r['data'] if r else None
+        return {r['key']:r['data'] for r in c.execute('SELECT key,data FROM assets')}
+def asset(actor,key):
+    stored_key='nemu_brand_20261114' if key=='nemu' else key
+    data=asset_bundle(actor).get(stored_key)
+    if data:return data
+    if key=='nemu':
+        from .db import ROOT
+        logo=ROOT/'assets/logo_nemu.png'
+        return logo.read_bytes() if logo.is_file() else None
+    return None

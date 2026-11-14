@@ -38,7 +38,7 @@ def auth_page():
             else:
                 try:auth.register(un,pw,nama,nim,prodi,angkatan);st.success('Akun berhasil dibuat. Buka tab Masuk.')
                 except auth.AppError as e:st.error(str(e))
-    st.caption('Akun admin dibuat melalui python scripts/create_admin.py. Pengurus memperoleh akun dari admin.')
+
 def dashboard(me):
     hero();st.subheader('Halo, '+me['nama']+' 👋')
     cfg=s.config(me['id'])
@@ -216,6 +216,14 @@ def settings(me):
         st.caption('Mengubah periode membuka dua pilihan baru untuk mahasiswa. Riwayat periode sebelumnya tetap ada. Jangan mengubah periode hanya untuk mengganti tulisan.')
         if st.form_submit_button('Simpan pengaturan',type='primary'):action(s.update_config,me['id'],weights,period,opened)
     st.caption('Rekomendasi lama menyimpan bobot dan profil saat dihitung. Mahasiswa dapat menekan Perbarui rekomendasi setelah kriteria berubah.')
+    with st.expander('Pemeliharaan aplikasi'):
+        from backend.db import mode
+        if mode()=='sqlite':
+            if st.checkbox('Tampilkan alat backup dan pemindahan',key='show_maintenance'):
+                from .backup_view import render_backup
+                render_backup(me)
+        else:st.caption('Cadangan data dikelola melalui layanan penyimpanan oleh administrator.')
+
 def admin_recommendations(me):
     st.header('Riwayat rekomendasi mahasiswa');rows=s.recommendations_admin(me['id'])
     if not rows:st.info('Belum ada perhitungan rekomendasi.');return

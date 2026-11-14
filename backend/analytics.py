@@ -18,9 +18,9 @@ def describe_counts(values,key,total,label):
     return f"{lead} {'sama-sama ' if len(leaders)>1 else ''}memiliki jumlah tertinggi: {each}{n} dari {total} {label} ({100*n/total:.1f}%)."
 def summary(actor):
     with connect() as c:
-        c.execute('BEGIN')  # Semua grafik pada satu snapshot transaksi baca.
+        c.raw.execute('SET TRANSACTION ISOLATION LEVEL REPEATABLE READ') if getattr(c,'is_postgres',False) else c.execute('BEGIN')
         user=require(c,actor,['admin','pengurus','mahasiswa']);role=user['role'];period=setting(c,'periode')
-        base='''SELECT p.*,u.nama mahasiswa,u.prodi,k.nama ukm,k.profil,r.hasil,r.kuesioner_id,q.jawaban
+        base='''SELECT p.*,u.nama mahasiswa,u.prodi,k.nama ukm,r.kuesioner_id,q.jawaban
                 FROM pendaftaran p JOIN users u ON u.id=p.user_id JOIN ukm k ON k.id=p.ukm_id
                 JOIN rekomendasi r ON r.id=p.rekomendasi_id JOIN kuesioner q ON q.id=r.kuesioner_id
                 WHERE p.periode=?'''
