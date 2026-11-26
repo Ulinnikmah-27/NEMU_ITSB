@@ -21,6 +21,17 @@ def csv_data(rows):
     return out.getvalue().encode('utf-8-sig')
 def auth_page():
     hero();st.subheader('Selamat datang di NEMU')
+    demo_password = st.secrets.get("NEMU_DEMO_PASSWORD", "")
+
+    if demo_password:
+        with st.expander("🎓 Akun Demo untuk Dosen", expanded=True):
+            st.write("Gunakan akun berikut untuk mencoba NEMU.")
+            st.text("Username: dosen_nemu")
+            st.text("Password: " + demo_password)
+            st.caption(
+                "Akun demo menggunakan peran mahasiswa. "
+                "Aktivitas pada akun ini digunakan bersama."
+            )
     a,b=st.tabs(['Masuk','Daftar mahasiswa'])
     with a,st.form('login'):
         username=st.text_input('Username');password=st.text_input('Password',type='password')
@@ -38,6 +49,13 @@ def auth_page():
             else:
                 try:auth.register(un,pw,nama,nim,prodi,angkatan);st.success('Akun berhasil dibuat. Buka tab Masuk.')
                 except auth.AppError as e:st.error(str(e))
+
+    st.divider()
+    if st.button('Panduan Penggunaan',icon=':material/menu_book:',key='public_guide_toggle'):
+        st.session_state['public_guide_open']=not st.session_state.get('public_guide_open',False)
+    if st.session_state.get('public_guide_open'):
+        from frontend.user_guide import render_guide
+        render_guide()
 
 def dashboard(me):
     hero();st.subheader('Halo, '+me['nama']+' 👋')
@@ -194,6 +212,8 @@ def admin_assets(me):
     if st.button('Simpan logo',disabled=f is None,type='primary'):action(s.save_asset,me['id'],key,f.getvalue())
     st.caption('Logo yang belum diunggah memakai penanda sementara, bukan logo resmi UKM.')
 def admin_users(me):
+    from frontend.dosen_view import render_dosen_form
+    render_dosen_form(me)
     st.header('Kelola akun');cs=s.clubs(me['id'],True);opts={u['id']:u['nama'] for u in cs}
     with st.expander('Buat akun pengurus'):
         with st.form('manager'):

@@ -2,7 +2,7 @@
 import base64,html
 import streamlit as st
 from backend.service import asset
-ICONS={'Dashboard':'space_dashboard','Analisis':'bar_chart','Profil':'person','Kuesioner':'quiz','Katalog UKM':'groups','Rekomendasi':'explore','Pendaftaran':'assignment','Keamanan akun':'shield','Kelola UKM':'groups','Logo dan aset':'palette','Kelola akun':'manage_accounts','Riwayat rekomendasi':'history','Pengaturan':'settings','Pendaftar UKM':'assignment_ind'}
+ICONS={'Panduan Penggunaan':'menu_book','Dashboard':'space_dashboard','Analisis':'bar_chart','Profil':'person','Kuesioner':'quiz','Katalog UKM':'groups','Rekomendasi':'explore','Pendaftaran':'assignment','Keamanan akun':'shield','Kelola UKM':'groups','Logo dan aset':'palette','Kelola akun':'manage_accounts','Riwayat rekomendasi':'history','Pengaturan':'settings','Pendaftar UKM':'assignment_ind'}
 def render_navigation(me,menus):
     compact=st.session_state.get('sidebar_compact',False)
     width=84 if compact else 260
