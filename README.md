@@ -11,3 +11,7 @@ NEMU (Navigasi Eksplorasi Minat UKM) adalah aplikasi web berbasis Python dan Str
 
 ### Laporan Wawancara
 [Lihat Laporan Wawancara](https://docs.google.com/document/d/1c83CzHgliym56mgN5ix7sLJetFH2KfVh/edit)
+## Akses Aplikasi NEMU
+
+Klik tautan berikut untuk membuka aplikasi:
+[🌐 Buka Web NEMU](https://nemu-itsb.streamlit.app/)
