@@ -11,10 +11,10 @@ def render_navigation(me,menus):
     [data-testid="stSidebarCollapseButton"],[data-testid="stExpandSidebarButton"]{{display:none!important;}}
     [data-testid="stSidebarUserContent"]{{padding:1rem .65rem!important;}}
     [data-testid="stSidebar"] [data-testid="stVerticalBlock"]{{gap:.35rem;}}
-    [data-testid="stSidebar"] .stButton>button{{min-height:43px;width:100%;background:transparent;color:#e6edff!important;border:0;justify-content:{'center' if compact else 'flex-start'};padding:.65rem {'0' if compact else '.8rem'};border-radius:12px;}}
-    [data-testid="stSidebar"] .stButton>button p{{color:inherit!important;font-size:14px;}}
+    [data-testid="stSidebar"] .stButton>button{{min-height:43px;width:100%;background:transparent!important;color:#eef3ff!important;border:0;justify-content:{'center' if compact else 'flex-start'};padding:.65rem {'0' if compact else '.8rem'};border-radius:12px;}}
+    [data-testid="stSidebar"] .stButton>button p{{color:#eef3ff!important;opacity:1!important;font-size:14px;}}
     [data-testid="stSidebar"] .stButton>button:hover{{background:#2b3c68;color:white!important;}}
-    [data-testid="stSidebar"] .stButton>button[kind="primary"]{{background:#3457a6;color:white!important;box-shadow:inset 3px 0 #ffc84b;}}
+    [data-testid="stSidebar"] .stButton>button[kind="primary"]{{background:linear-gradient(100deg,#3b5db1,#6b52b9)!important;color:white!important;box-shadow:inset 3px 0 #ffc84b;}}
     .nemu-brand{{display:flex;align-items:center;gap:12px;margin:8px 0 18px;}}
     .nemu-brand img{{width:{'56' if compact else '72'}px;height:{'56' if compact else '72'}px;object-fit:contain;background:white;border-radius:16px;padding:5px;box-sizing:border-box;box-shadow:0 5px 18px #0a102c55;}}
     .nemu-brand strong{{color:white;font-size:23px;letter-spacing:2px;}}

@@ -3,8 +3,8 @@ from backend.auth import AppError
 from backend.dosen import create_dosen
 def render_dosen_form(me):
     with st.expander('Akun uji dosen'):
-        st.write('Username: dosen_nemu · Peran: mahasiswa. Akun ini dipakai untuk mencoba kuesioner, rekomendasi dan pendaftaran; tidak memiliki akses admin.')
-        st.caption('Identitas uji: UJI-DOSEN. Aktivitas akun ini ikut masuk analisis mahasiswa. Password diberikan kepada dosen secara pribadi.')
+        st.write('Username: dosen_nemu · Satu login untuk tiga POV di ruang latihan terpisah. Peran akun asli tetap mahasiswa.')
+        st.caption('Identitas akun: UJI-DOSEN. Aktivitas mode penilaian memakai data demo per sesi dan tidak masuk analisis asli. Akun yang sudah ada tidak perlu dibuat ulang.')
         with st.form('create_dosen_account',clear_on_submit=True):
             pw=st.text_input('Password akun dosen (minimal 8 karakter)',type='password')
             repeat=st.text_input('Ulangi password akun dosen',type='password')

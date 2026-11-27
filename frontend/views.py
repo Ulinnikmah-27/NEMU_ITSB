@@ -19,46 +19,10 @@ def csv_data(rows):
     out=io.StringIO();w=csv.DictWriter(out,fieldnames=list(rows[0]));w.writeheader()
     for row in rows:w.writerow({k:("'"+v if isinstance(v,str) and v.startswith(('=','+','-','@','\t','\r')) else v) for k,v in row.items()})
     return out.getvalue().encode('utf-8-sig')
-def auth_page():
-    hero();st.subheader('Selamat datang di NEMU')
-    demo_password = st.secrets.get("NEMU_DEMO_PASSWORD", "")
-
-    if demo_password:
-        with st.expander("🎓 Akun Demo untuk Dosen", expanded=True):
-            st.write("Gunakan akun berikut untuk mencoba NEMU.")
-            st.text("Username: dosen_nemu")
-            st.text("Password: " + demo_password)
-            st.caption(
-                "Akun demo menggunakan peran mahasiswa. "
-                "Aktivitas pada akun ini digunakan bersama."
-            )
-    a,b=st.tabs(['Masuk','Daftar mahasiswa'])
-    with a,st.form('login'):
-        username=st.text_input('Username');password=st.text_input('Password',type='password')
-        if st.form_submit_button('Masuk',type='primary'):
-            try:
-                u=auth.login(username,password);st.session_state['uid']=u['id'];st.session_state['login_at']=time.time();st.rerun()
-            except auth.AppError as e:st.error(str(e))
-    with b,st.form('register'):
-        nama=st.text_input('Nama lengkap');nim=st.text_input('NIM');prodi=st.selectbox('Program studi',PROGRAM_STUDI,index=None,placeholder='Pilih program studi');angkatan=st.text_input('Angkatan',placeholder='2026')
-        un=st.text_input('Username baru');pw=st.text_input('Password baru (minimal 8 karakter)',type='password');pw2=st.text_input('Ulangi password',type='password')
-        consent=st.checkbox('Saya setuju profil dan jawaban digunakan untuk rekomendasi; pengurus UKM pilihan saya dapat melihat jawaban untuk seleksi.')
-        if st.form_submit_button('Buat akun mahasiswa',type='primary'):
-            if pw!=pw2:st.error('Password tidak sama.')
-            elif not consent:st.error('Persetujuan penggunaan data diperlukan untuk melanjutkan.')
-            else:
-                try:auth.register(un,pw,nama,nim,prodi,angkatan);st.success('Akun berhasil dibuat. Buka tab Masuk.')
-                except auth.AppError as e:st.error(str(e))
-
-    st.divider()
-    if st.button('Panduan Penggunaan',icon=':material/menu_book:',key='public_guide_toggle'):
-        st.session_state['public_guide_open']=not st.session_state.get('public_guide_open',False)
-    if st.session_state.get('public_guide_open'):
-        from frontend.user_guide import render_guide
-        render_guide()
+from .login_view import auth_page
 
 def dashboard(me):
-    hero();st.subheader('Halo, '+me['nama']+' 👋')
+    hero(me);st.subheader('Halo, '+me['nama']+' 👋')
     cfg=s.config(me['id'])
     st.info(f"Periode {cfg['periode']} · Pendaftaran {'dibuka' if cfg['pendaftaran_buka'] else 'ditutup'}")
     render_analytics(me,compact=True)

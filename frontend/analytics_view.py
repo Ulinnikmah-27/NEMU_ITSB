@@ -4,11 +4,11 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from backend.analytics import summary
-COLORS=['#8174c8','#79b9cf','#e5b178','#8bbfa8','#ce9cbb']
+COLORS=['#6c55c7','#4588bd','#e7b849','#60a88d','#c186b0']
 LABELS={'minat':'Minat','bakat':'Bakat','kemampuan':'Kemampuan','preferensi':'Preferensi','komitmen':'Komitmen'}
 def plot(frame,x,y,title,horizontal=False):
     fig=px.bar(frame,x=x,y=y,orientation='h' if horizontal else 'v',color_discrete_sequence=COLORS,text_auto=True,title=title)
-    fig.update_layout(height=max(330,len(frame)*35+130) if horizontal else 340,margin=dict(l=10,r=15,t=60,b=20),paper_bgcolor='rgba(0,0,0,0)',showlegend=False)
+    fig.update_layout(height=max(330,len(frame)*35+130) if horizontal else 340,margin=dict(l=10,r=15,t=60,b=20),paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='#ffffff',font=dict(color='#253455',family='sans-serif'),title_font_size=16,showlegend=False)
     if horizontal:fig.update_yaxes(autorange='reversed')
     st.plotly_chart(fig,use_container_width=True)
 def recommendation_text(data):
@@ -41,7 +41,7 @@ def personal(d):
         plot(pd.DataFrame(d['status']),'Status','Jumlah','Status pendaftaran UKM milikmu')
         st.write('**Analisis:** '+d['narasi_status']);st.dataframe(pd.DataFrame(d['pilihan']),hide_index=True)
         st.caption('Persentase hanya merangkum keputusan yang sudah ada dan bukan prediksi hasil pilihan lain.')
-    else:st.info('Belum ada pendaftaran yang tidak dibatalkan pada periode ini. Pilih UKM melalui menu Pendaftaran.')
+    else:st.info('Belum ada pendaftaran yang tidak dibatalkan pada periode ini. Pilih UKM melalui menu Rekomendasi.')
 
 def render_analytics(me,compact=False):
     d=summary(me['id'])
@@ -54,7 +54,7 @@ def render_analytics(me,compact=False):
     cols=st.columns(4);cols[0].metric('Mahasiswa pendaftar unik',d['mahasiswa']);cols[1].metric('Pendaftaran',d['pendaftaran']);cols[2].metric('Menunggu',d['menunggu']);cols[3].metric('Diterima',d['diterima'])
     st.caption(f"{d['dibatalkan']} pendaftaran dibatalkan dikeluarkan dari grafik. Pendaftaran berarti pilihan mahasiswa ke satu UKM; satu mahasiswa bisa punya dua pilihan.")
     if not d['pendaftaran']:
-        st.info('Belum ada pendaftaran yang tidak dibatalkan untuk cakupan dan periode ini. Grafik dan analisis akan muncul setelah mahasiswa mendaftar. Tidak ada data contoh yang dicampur ke hasil.')
+        st.info('Belum ada pendaftaran aktif pada periode ini. Grafik akan terisi setelah ada pendaftaran. Buka Katalog UKM atau periksa periode pendaftaran untuk melanjutkan.')
         return
     st.subheader('1. Proses seleksi')
     plot(pd.DataFrame(d['status']),'Status','Jumlah','Jumlah pendaftaran menurut status')
