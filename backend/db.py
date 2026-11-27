@@ -6,8 +6,12 @@ from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG_KEYS=['NEMU_DATABASE_MODE','NEMU_PG_HOST','NEMU_PG_PORT','NEMU_PG_USER','NEMU_PG_PASSWORD','NEMU_PG_DBNAME']
 def now():return datetime.now(timezone.utc).isoformat(timespec='seconds')
-def path():return Path(os.environ.get('NEMU_DB_PATH',str(ROOT/'database/nemu.db')))
+def path():
+    from .storage_context import demo_path
+    return demo_path() or Path(os.environ.get('NEMU_DB_PATH',str(ROOT/'database/nemu.db')))
 def mode():
+    from .storage_context import demo_path
+    if demo_path():return 'sqlite'
     value=os.environ.get('NEMU_DATABASE_MODE','sqlite').strip().lower()
     if value not in ['sqlite','postgres']:raise RuntimeError('NEMU_DATABASE_MODE harus sqlite atau postgres.')
     return value

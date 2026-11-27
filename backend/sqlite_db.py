@@ -5,7 +5,9 @@ from contextlib import contextmanager
 from datetime import datetime, timezone
 ROOT=Path(__file__).resolve().parents[1]
 def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
-def path(): return Path(os.environ.get('NEMU_DB_PATH', str(ROOT/'database/nemu.db')))
+def path():
+    from .storage_context import demo_path
+    return demo_path() or Path(os.environ.get('NEMU_DB_PATH', str(ROOT/'database/nemu.db')))
 @contextmanager
 def connect(write=False):
     p=path();p.parent.mkdir(parents=True,exist_ok=True)
